@@ -1,0 +1,275 @@
+#infobox{
+    background-color: aliceblue;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: 200px;
+    margin-bottom: 40px;
+    border-radius: 6px;
+    margin-top: 80px;
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+
+
+#inputField {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+width: 160px;
+height: 20px;
+}
+
+#button{
+    margin-top: 5px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 100px;
+height: 30px;
+font-weight: bold;
+}
+
+#buttonTimer{
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    text-align: center;
+    margin-left: 3px;
+}
+
+#buttonnoTimer{
+    width: 80px;
+    height: 30px;
+    font-weight: bold;
+    margin-right: 3px;
+}
+
+svg{
+    margin-top: 10px;
+margin-right: 30px;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+
+body {
+
+    background-color: lightblue;
+}
+
+#counter{
+    text-align: center;
+    margin-top: 5px;
+}
+
+svg path {
+    cursor: pointer;
+}
+
+#timer{  
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 30px;
+justify-content: left;
+font-weight: bold;
+}
+
+#timerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    margin-top: 40px;
+}
+
+.achtung{
+    width: 340px;
+    text-align: center;
+    list-style-type: none;
+    margin: 20px auto;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+span{
+    
+    font-weight: bold;
+}
+
+
+@media (max-width: 600px) {
+   .achtung{
+    width: 300px;
+   }
+    
+    #timer{
+        text-align: center;
+        margin-left: 0;
+    }
+    #inputField{
+        margin-top: 40px;
+        margin-bottom: 10px;
+        width: 150px;
+        height: 30px;
+    }
+
+    #timerContainer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    svg{
+        margin-top: 30px;
+        
+    }
+
+    .text{
+        margin-top: 50px;
+        font-size: 9px;
+        text-align: center;
+        background-color: rgb(191, 219, 228);
+        margin-left: 140px;
+        margin-right: 140px;
+        padding-bottom: 10px;
+        font-weight: normal;
+    }
+
+#infobox{
+    width: 200px;
+    height: 260px;
+}    
+
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.navbartxt {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbartxt li {
+    margin: 0 20px;
+}
+
+.navbartxt a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+    font-size: 18px;
+    transition: all 0.3s ease; 
+    font-weight: bold;
+}
+
+.navbartxt a:hover {
+    font-weight: bold;
+    transition: all 0.3s ease; 
+    font-size: 22px;
+    color: #000000;
+    border-radius: 4px;
+}
+
+.toggle-button {
+    position: absolute;
+    top: .75rem;
+    right: 1rem;
+    display: none;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30px;
+    height: 21px;
+}
+
+.toggle-button .bar {
+    height: 3px;
+    width: 100%;
+    background-color: white;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+}
+
+.toggle-button.active .bar:first-child {
+    transform: translateY(8px) rotate(45deg);
+}
+
+.toggle-button.active .bar:nth-child(2) {
+    opacity: 0;
+}
+
+.toggle-button.active .bar:last-child {
+    transform: translateY(-8px) rotate(-45deg);
+}
+
+
+
+
+
+@media (max-width: 600px) { 
+    
+
+    
+    
+    .navbartxt {
+        display: none;
+        width: 100%;
+        transition: all 0.3s ease;
+        flex-direction: column;
+    }
+
+
+    .navbartxt ul {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .navbartxt ul li {
+        text-align: center;
+    }
+
+    .navbartxt ul li a {
+        padding: .5rem 1rem;
+    }
+
+    .navbartxt.active {
+        display: flex;
+    }
+
+    .navbartxt.active {
+        display: flex;
+    }
+
+    .toggle-button {
+        display: flex;
+        
+    }
+}
+
