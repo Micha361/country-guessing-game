@@ -2,7 +2,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggleButton = document.querySelector('.toggle-button');
     const navbarLinks = document.getElementById('navbar-links');
 
-    // Add 'active' class when the page loads
     navbarLinks.classList.add('active');
     toggleButton.classList.add('active');
 
