@@ -1,4 +1,5 @@
-Country Guessing Game
+**Country Guessing Game**
+
 This is a country guessing game project built using HTML, JavaScript, and CSS.
 
 Project Description
